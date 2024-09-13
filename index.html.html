@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--Indica al navegador que este documento está escrito en HTML5-->
+<html lang="es"> <!--La etiqueta <html> indica el inicio del documento HTML. El atributo lang="es" indica que la página está en español-->
+<head> <!--Contiene la información meta de la página (Como el título y la codificación de caracteres)-->
+    <meta charset="UTF-8"> <!--Asegura que los caracteres especiales (como las tildes) se muestren correctamente-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Hace que la página sea sensible, ajustándose a diferentes taaños de pantalla-->
+    <title>Mi Primera Página Web</title> <!--El título que aparecerá en la pestaña del navegador-->
+</head>
+<body> <!--Todo el contenido visible de la página se encuentra dentro de esta etiqueta-->
+    <header> <!--Representa la cabecera de la página o de una sección. Normalmente contiene el título principal o el logo de la página. en este caso contiene el título "Bienvenido a mi página web"-->
+        <h1>Bienvenido a mi página web</h1> <!--Esta es una etiqueta de encabezado de nivel 1 (<h1>),que se utiliza para mostrar el título más importante de la página-->
+    </header>
+    <nav> <!--Define una sección de navegación. Dentro de ella suele haber enlaces que permiten al usuario moverse entre diferentes partes del sitio web o diferentes páginas-->
+        <ul> <!--Es una lista desordenada que crea elementos con viñetas-->
+            <li><a href="#inicio">Inicio</a></li> <!--Cada elemento dentro de la lista desordenada se representa con la etiqueta <li> que significa "list item"-->
+            <li><a href="#sobre-mi">Sobre mí</a></li> <!--Es un enlace. El atributo href contiene la dirección a la que el enlace apunta. En este caso, el enlace lleva a un punto específico-->
+            <li><a href="#contacto">Contacto</a></li><!--de la misma página, identificado por el atributo id de una sección (como #inicio, #sobre-mi o #contacto)-->
+        </ul>
+    </nav>
+    <section id="inicio"> <!--El atributo id se usa para identificar de manera única esta sección-->
+        <h2>Inicio</h2><!--Este es un encabezado de nivel 2, más pequeño que el <h1> y se utiliza para títulos de secciones dentro de la página-->
+        <p>Esta es la sección de inicio de mi página web.</p>
+    </section><!--Se utiliza para agrupar contenido relacionado en una sección lógica-->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Aquí puedes poner información sobre ti o el propósito de la página.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Este es el espacio para información de contacto.</p>
+    </section>
+    <footer> <!--Define el pie de página de la página web o de una sección. Normalmente contiene información como derechos de autor, enlaces a políticas de privacidad o términos de uso-->
+        <p>&copy; 2024 Mi Página Web</p> <!--&copy es una entidad HTML que representa el símbolo de copyright.-->
+    </footer>
+</body>
+</html>
